@@ -1,0 +1,182 @@
+$dark-grey: #333;
+$light-grey: #6e6e6e;
+$custom-bg: #333;
+$text-light: rgb(241, 241, 241);
+
+$font-subtitle: 'Architects Daughter', cursive;
+$font-p: 'Dosis', sans-serif;
+$font-title: 'Shizuru', cursive;
+
+.custom-bg{
+    background-color: $custom-bg;
+}
+
+.text-light{
+    color: $text-light;
+}
+
+body, html, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-container {
+    
+    min-width: 550px;
+    .row{
+    align-items: center;
+    }
+}
+
+.nav-wrapper{
+
+    .logo{
+        font-family: $font-title;
+        font-size: 1.25em;
+        letter-spacing: .3em;
+    }
+    .nav-container {
+
+        font-family: $font-p;
+        font-size: 1.25em;
+
+        
+        ul {
+        margin-bottom: 0;
+
+            li{
+                list-style-type: none;
+        
+                margin-right: 1rem;
+
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.nav-left{
+    width: 100px;
+    height: 300px;
+}
+
+
+  .about-wrapper{  
+      padding-top: 15rem;
+      .main-text{
+        font-size: clamp(8px, 16px, 26px);
+    }
+    h1{
+        font-variant: small-caps;
+    }
+  }
+
+.content-wrapper{
+    padding-top: 3rem;
+    height: 300px;
+
+        .hero{
+        width: clamp(300px, 60%, 650px);
+        border: 1px solid $light-grey;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px $dark-grey;
+        transform: translateY(-20%);
+        margin-bottom: 0;
+        padding-bottom: 0;
+
+            .hero-title{
+            font-family: $font-title;
+            font-variant: small-caps;
+            font-size: 28px;
+            text-shadow: 3px 3px 3px $dark-grey;
+        }
+    }
+   
+}
+
+.btn.btn-dark{
+    font-variant: small-caps;
+    box-shadow: 5px 5px 10px $dark-grey;
+    background-color: $dark-grey;
+    &:hover{
+        transform: scale(.98);
+        box-shadow: 3px 3px 5px $dark-grey;
+    }
+}
+@media (min-width: 960px){
+    .content-wrapper{
+
+        .hero{
+            .hero-title-group{
+
+            .hero-title{
+            font-size: 4rem;
+            }
+        }
+        }
+    }
+    
+}
+
+
+@media (min-width: 768px){
+
+    .content-wrapper {
+        height: 80vh;
+
+        .hero{
+
+            margin: 0 auto; 
+            max-width: 80%;
+            min-width: 500px;
+
+                .hero-title{
+                font-size: 3.5rem;
+                padding: 0 1rem;
+                }
+                .subtitle{
+                    font-size: 2rem;
+                    font-family: $font-subtitle;
+                }
+        }
+    }    
+
+}
+
+@media(max-width: 400px){
+   
+    .navbar.nav{
+        display: block;
+    }
+    .nav-left{
+        display: none;
+        width: 0;
+    }
+    .hero{
+        margin-left: -60px;
+    }
+}
+
+@media (max-width: 250px){
+    .row-1{
+        display: none;
+    }
+}
+
+.title-span-1:hover{cursor: default; text-shadow: 2px 2px 5px green; color: green}
+.title-span-2:hover{cursor: default; text-shadow: 2px 2px 5px rgb(119, 128, 0); color: rgb(119, 128, 0)}
+.title-span-3:hover{cursor: default; text-shadow: 2px 2px 5px rgb(128, 87, 0); color: rgb(128, 87, 0)}
+.title-span-4:hover{cursor: default; text-shadow: 2px 2px 5px rgb(128, 0, 0); color: rgb(128, 0, 0)}
+.title-span-5:hover{cursor: default; text-shadow: 2px 2px 5px rgb(128, 0, 100); color: rgb(128, 0, 100)}
+.title-span-6:hover{cursor: default; text-shadow: 2px 2px 5px rgb(87, 0, 128); color: rgb(87, 0, 128)}
+.title-span-7:hover{cursor: default; text-shadow: 2px 2px 5px rgb(49, 0, 128); color: rgb(49, 0, 128)}
+.title-span-8:hover{cursor: default; text-shadow: 2px 2px 5px rgb(0, 19, 128); color: rgb(0, 19, 128)}
+.title-span-9:hover{cursor: default; text-shadow: 2px 2px 5px rgb(0, 77, 128); color: rgb(0, 77, 128)}
+.title-span-10:hover{cursor: default; text-shadow: 2px 2px 5px rgb(0, 113, 128); color: rgb(0, 113, 128)}
+.title-span-11:hover{cursor: default; text-shadow: 2px 2px 5px rgb(0, 128, 68); color: rgb(0, 128, 68)}
+.title-span-12:hover{cursor: default; text-shadow: 2px 2px 5px ; color: green}
+

@@ -1,0 +1,220 @@
+.custom-bg {
+  background-color: #333;
+}
+
+.text-light {
+  color: #f1f1f1;
+}
+
+body, html, * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-container {
+  min-width: 550px;
+}
+
+.main-container .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-wrapper .logo {
+  font-family: "Shizuru", cursive;
+  font-size: 1.25em;
+  letter-spacing: .3em;
+}
+
+.nav-wrapper .nav-container {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.25em;
+}
+
+.nav-wrapper .nav-container ul {
+  margin-bottom: 0;
+}
+
+.nav-wrapper .nav-container ul li {
+  list-style-type: none;
+  margin-right: 1rem;
+}
+
+.nav-wrapper .nav-container ul li a {
+  text-decoration: none;
+}
+
+.nav-left {
+  width: 100px;
+  height: 300px;
+}
+
+.about-wrapper {
+  padding-top: 15rem;
+}
+
+.about-wrapper .main-text {
+  font-size: clamp(8px, 16px, 26px);
+}
+
+.about-wrapper h1 {
+  font-variant: small-caps;
+}
+
+.content-wrapper {
+  padding-top: 3rem;
+  height: 300px;
+}
+
+.content-wrapper .hero {
+  width: clamp(300px, 60%, 650px);
+  border: 1px solid #6e6e6e;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 10px #333;
+          box-shadow: 5px 5px 10px #333;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.content-wrapper .hero .hero-title {
+  font-family: "Shizuru", cursive;
+  font-variant: small-caps;
+  font-size: 28px;
+  text-shadow: 3px 3px 3px #333;
+}
+
+.btn.btn-dark {
+  font-variant: small-caps;
+  -webkit-box-shadow: 5px 5px 10px #333;
+          box-shadow: 5px 5px 10px #333;
+  background-color: #333;
+}
+
+.btn.btn-dark:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  -webkit-box-shadow: 3px 3px 5px #333;
+          box-shadow: 3px 3px 5px #333;
+}
+
+@media (min-width: 960px) {
+  .content-wrapper .hero .hero-title-group .hero-title {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-wrapper {
+    height: 80vh;
+  }
+  .content-wrapper .hero {
+    margin: 0 auto;
+    max-width: 80%;
+    min-width: 500px;
+  }
+  .content-wrapper .hero .hero-title {
+    font-size: 3.5rem;
+    padding: 0 1rem;
+  }
+  .content-wrapper .hero .subtitle {
+    font-size: 2rem;
+    font-family: "Architects Daughter", cursive;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar.nav {
+    display: block;
+  }
+  .nav-left {
+    display: none;
+    width: 0;
+  }
+  .hero {
+    margin-left: -60px;
+  }
+}
+
+@media (max-width: 250px) {
+  .row-1 {
+    display: none;
+  }
+}
+
+.title-span-1:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px green;
+  color: green;
+}
+
+.title-span-2:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px #778000;
+  color: #778000;
+}
+
+.title-span-3:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px #805700;
+  color: #805700;
+}
+
+.title-span-4:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px maroon;
+  color: maroon;
+}
+
+.title-span-5:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px #800064;
+  color: #800064;
+}
+
+.title-span-6:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px #570080;
+  color: #570080;
+}
+
+.title-span-7:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px #310080;
+  color: #310080;
+}
+
+.title-span-8:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px #001380;
+  color: #001380;
+}
+
+.title-span-9:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px #004d80;
+  color: #004d80;
+}
+
+.title-span-10:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px #007180;
+  color: #007180;
+}
+
+.title-span-11:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px #008044;
+  color: #008044;
+}
+
+.title-span-12:hover {
+  cursor: default;
+  text-shadow: 2px 2px 5px;
+  color: green;
+}
+/*# sourceMappingURL=main.css.map */
